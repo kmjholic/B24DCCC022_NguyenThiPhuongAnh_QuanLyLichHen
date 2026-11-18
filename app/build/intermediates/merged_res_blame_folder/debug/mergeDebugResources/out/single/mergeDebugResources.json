@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/layout_activity_login.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_stat_card.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_stat_card.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_card.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/layout_item_appointment.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/layout/item_appointment.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/layout_activity_main.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_chip_time.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_chip_time.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/layout_activity_appointment_detail.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/layout/activity_appointment_detail.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_button_outline.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_button_outline.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_button_delete.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_button_delete.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_field.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_field.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/color_switch_track.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/color/switch_track.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_logo.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_logo.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/layout_activity_add_appointment.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/layout/activity_add_appointment.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_chip_on.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_chip_on.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_chip_off.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_chip_off.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/color_switch_thumb.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/color/switch_thumb.xml"
+    },
+    {
+        "merged": "com.example.quanlylichhen.app-debug-20:/drawable_bg_button_primary.xml.flat",
+        "source": "com.example.quanlylichhen.app-main-22:/drawable/bg_button_primary.xml"
+    }
+]

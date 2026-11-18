@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/primary"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/tvBack"
+            style="@style/HeaderTitle"
+            android:layout_marginEnd="20dp"
+            android:text="←" />
+
+        <TextView
+            style="@style/HeaderTitle"
+            android:text="Chi tiết lịch hẹn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- 1. Tên lịch hẹn -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_main"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/stroke" />
+
+        <!-- 2. Địa điểm -->
+        <TextView
+            style="@style/FieldLabel"
+            android:text="Địa điểm" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_main"
+            android:textSize="20sp" />
+
+        <!-- 3. Thời gian -->
+        <TextView
+            style="@style/FieldLabel"
+            android:layout_marginTop="18dp"
+            android:text="Thời gian" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_main"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/stroke" />
+
+        <!-- 4. Nhắc nhở -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nhắc nhở"
+                android:textColor="@color/text_main"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swReminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:thumbTint="@color/switch_thumb"
+                app:trackTint="@color/switch_track" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvReminderState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/text_sub"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 5. Nút Quay lại -->
+    <Button
+        android:id="@+id/btnBack"
+        style="@style/BigButton"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_button_outline"
+        android:text="Quay lại" />
+
+    <!-- 6. Nút Xóa lịch hẹn -->
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/BigButton"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_button_delete"
+        android:text="Xóa lịch hẹn"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
